@@ -1,0 +1,15 @@
+[project]
+name = "kernel-whisper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "accelerate>=1.8.1",
+  "datasets>=4.0.0",
+  "evaluate>=0.4.5",
+  "matplotlib>=3.10.3",
+  "notebook>=7.4.4",
+  "torch>=2.7.1",
+  "transformers>=4.53.2",
+]
