@@ -1,7 +1,7 @@
 [project]
-name = "kernel-whisper"
+name = "torchpod"
 version = "0.1.0"
-description = "Add your description here"
+description = "A machine learning project in torch"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

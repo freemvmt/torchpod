@@ -12,8 +12,8 @@ fi
 
 # ensure we have git, clone repo, cd in etc.
 apt-get update && apt-get install -y git
-git clone git@github.com:freemvmt/pp-tldr.git || true
-cd pp-tldr
+git clone git@github.com:freemvmt/torchpod.git || true
+cd torchpod
 git pull
 git status
 

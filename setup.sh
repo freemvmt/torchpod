@@ -15,6 +15,7 @@ set +a
 # install uv (and setup custom cache dirs if we have runpod storage)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
+
 if [[ -n "$SSH_CONNECTION" && -d /workspace/ ]]; then
   echo "🐧 Running on remote runpod with storage attached - setting custom uv/hf cache dir"
   mkdir -p /workspace/.cache/uv
